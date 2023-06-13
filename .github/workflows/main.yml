@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - uses: "./action.yml"
+      - uses: "./"
         id: hello
 
       # Use the output from the `hello` step
