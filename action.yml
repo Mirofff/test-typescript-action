@@ -9,6 +9,5 @@ outputs:
   time: # id of output
     description: 'The time we greeted you'
 runs:
-  main: 'dist/main.js'
   using: 'node16'
-  pre: tree
+  main: dist/main.js
